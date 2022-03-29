@@ -15,7 +15,8 @@ state = {
       const vinted = require('vinted-api');
 
       vinted.search('https://www.vinted.fr/vetements?brand_id[]=53').then((posts) => {
-          console.log(posts); // all the posts that match this query
+      console.log("XOIJXOIJOIJXOIJXOIJXOIJXOIJXOIJXOJXOIJXOIJXOIJXOJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIJXOIXJOIXJOIJXOIJXOIJXOJXOIXJOIXJOIJXOIJXOIXJOIXJOIJXOIJOIJXIOJXOIJXIOIXJOIJXOIJOJ")
+      console.log(posts); // all the posts that match this query
       });
   }
     // fetching the GET route from the Express server which matches the GET route from server.js
